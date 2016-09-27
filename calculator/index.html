@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Calculator</title>
+    <script>
+        
+        var a = parseInt(prompt("Enter Number"));
+        var b = prompt("Enter Required Operator","Etc +  -  *  / & # For Square Root");
+        
+        if( b === "#" ){
+            d = Math.sqrt(a)
+            document.write(d);
+        }
+        
+        else if( b === "+" ){
+            var c=parseInt(prompt("Enter Number"));
+            e = ( a + c )
+            document.write(e);
+        }
+        
+        else if( b === "-" ){
+            var c=parseInt(prompt("Enter Number"));
+            e = ( a - c )
+            document.write(e);
+        }
+        
+        else if( b === "*" ){
+            var c=parseInt(prompt("Enter Number"));
+            e = ( a * c )
+            document.write(e);
+        }
+        
+        else if( b === "/" ){
+            var c=parseInt(prompt("Enter Number"));
+            e = ( a / c )
+            document.write(e);
+        }
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
